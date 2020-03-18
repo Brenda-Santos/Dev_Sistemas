@@ -1,0 +1,253 @@
+@font-face{
+	font-family: Code Bold;
+	src: url('CODE Bold.otf');
+}
+
+@media only screen and (max-device-width: 900px) {
+	/* .menu { width:100%; } */
+	}
+
+@media only screen and (max-device-width: 900px) {
+	/* .menu { width:600px; } */
+	}
+
+@media only screen and (max-device-width: 700px) {
+	/* .menu { width:400px; } */
+	}
+
+body{
+  	margin-left: 100px;
+  	background-color: #EEF4ED
+}
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.text{
+	margin-left: 100px;
+}
+
+.main{
+	margin-left: 100px;
+}
+
+.texto11 {
+	margin-left: 700px;
+	margin-top: 350px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-style: italic;
+
+}
+
+.logo{
+	width: 120px;
+	height: 90px;
+	position: absolute;
+   	top: 0;
+   	left: 0;
+   	padding-left: 220px;
+   	padding-top: 0px;
+}
+
+.logo_1{
+	width: 800px;
+	height: 600px;
+	padding-bottom: 100px;
+
+		animation-name: logo_1;
+		animation-duration: 5s;
+}
+
+.navigation{
+	height: 100px;
+	background-color: #0B2545;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #8DA9C4;
+	position: relative;
+}
+
+.navigation ul {
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 20px;
+	text-align: center;
+	height: 50px;
+	background-color: #0B2545;
+}
+
+.navigation li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 20px;
+	font-family: 'Code Bold', cursive;
+	margin-bottom: 50px;
+	background-color: #0B2545
+}
+
+.social_img{
+	width: 50px;
+	margin-right: 10px;
+}
+
+.social_img_2{
+	width: 40px;
+	line-height: 60px;
+	margin-top: 25px;
+	margin-left: 190px;
+}
+
+.text{
+	margin-top: 40px;
+}
+
+.text1{
+	margin-top: 50px;
+	background-color: #13315C;
+
+}
+
+.text1 h2, h4, li{
+	color:white;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+
+
+.social_img{
+	width: 35px;
+	height: 35px;
+	margin-top: 15px;
+}
+
+.fundo_texto{
+	background-color: #13315C;
+	padding-left: 30px;
+
+}
+
+.fundo_texto h1{
+	color:white;
+	font-weight: normal;
+}
+
+.fundo_texto h4{
+	color: white;
+}
+
+.text h2{
+  	font-color: #13315C
+  	font-size: 14px;
+  	font-family: 'Code Bold', cursive;
+}
+
+.text h4{
+	font-color: #13315C
+  	font-size: 12px;
+  	font-family: 'Code Bold', cursive;
+  	padding-right: 250px;
+	line-height: 30px;
+}
+
+.text li{
+	font-family: 'Code Bold', cursive;
+	line-height: 30px;
+}
+
+@keyframes logo_1{
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+h3{
+	font-family: 'Code Bold', cursive;
+}
+
+h5{
+	margin-top: 40px;
+}
+
+.back_link{
+	font-family: 'Code Bold', cursive;
+	font-size: 12px;
+}
+
+.servicos{
+	background-color: #13315C;
+	padding-left: 10px;
+}
+
+.servicos1{
+	margin-left: 500px;
+	margin-top: 115px;
+	position: absolute;
+   	top: 0;
+   	left: 0;
+   	width: 720px;
+   	height: 529px;
+}
+
+.servicos h1{
+	color:white;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+form{
+	font-size: 16px;
+	background: #CCC;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 30px 30px 30px;
+}
+
+h1{
+	color: #333;
+	font-family: 'Code Bold', cursive;
+	padding-top: 15px;
+
+}
+
+input, textarea{
+	width: 474px;
+	padding: 10px;
+}
+
+.enviar input {
+	background-color: #069;
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.enviar input:hover{
+	background: #078;
+}
+
+textarea {
+	width: 474px;
+	height: 120px;
+	line-height: 20px;
+}
+
+
+.redes_socias{
+	width: 100px;
+	height: 70px;
+}
